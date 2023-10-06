@@ -32,7 +32,7 @@ if uploaded_file is not None:
     # st.write(f'{img.shape}')
 
     # load the trained model
-    model = load_model('/Users/nj/Desktop/MLOps/Covid_image_classification/covid19_model.h5')
+    model = load_model('covid19_model.h5')
 
     # make predictions
     prediction = model.predict(img)
